@@ -4,15 +4,14 @@ Recognition of photovoltaic cells in aerial images with **Convolutional Neural N
 **Object detection** with YOLOv5 models and **image segmentation** with Unet++, FPN, DLV3+ and PSPNet.
 
 
-## 💽 Installation + pytorch CUDA 11.3
-Create a **Python 3.8** virtual environment and run the following command:
-```
-pip install -r requirements.txt && pip install torch torchvision --extra-index-url https://download.pytorch.org/whl/cu113
-```
-With **Anaconda**:
-```
-pip install -r requirements.txt && conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
-```
+## Start with UV and CUDA 12.8
+
+Create an instance with enough space on the drive (Unsure how much)
+Have an nvidia on it.
+
+[Install CUDA here](https://developer.nvidia.com/cuda-12-8-1-download-archive?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=22.04&target_type=deb_network)
+
+[Install UV here](https://docs.astral.sh/uv/getting-started/installation/)
 
 ## 💻 How to start?
 
